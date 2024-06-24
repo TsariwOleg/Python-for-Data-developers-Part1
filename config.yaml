@@ -1,0 +1,13 @@
+source:
+  scoring_path: ds/Scoring.csv
+  master_path: ds/Master.csv
+  awards_players_path: ds/AwardsPlayers.csv
+  team_path: ds/Teams.csv
+
+product:
+  final_df:
+    path: result_sql/
+    format: csv
+    mode: overwrite
+    options:
+      header: true
